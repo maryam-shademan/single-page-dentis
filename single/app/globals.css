@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* From Uiverse.io by laminelawal */ 
+.input {
+  padding: 10px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 1px  gray;
+  font-size: 18px;
+  transition: width 0.3s;
+  font-family: Consolas,monaco,monospace;
+}
+
+.input:focus {
+  outline: 1px solid blue;
+  box-shadow: none;
+  width: 230px;
+}
+
+.input::placeholder {
+  color: blue;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .hero:after {
+    position: absolute;
+    content: "";
+    width: 44%;
+    background-image: linear-gradient(180deg, color-mix(in srgb, var(--background-color), transparent 15%), color-mix(in srgb, var(--background-color), transparent 15%) 100%), linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+}
+
+.hero:before {
+  position: absolute;
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 40%);
+  inset: 0;
+  z-index: 2;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero .container,
+.hero .container-fluid {
+  z-index: 3;
+  position: relative;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero blockquote {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  padding-left: 20px;
+  border-left: 2px solid var(--accent-color);
+  margin: 40px 0;
+}
+
+.hero .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.hero .btn-get-started:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+
+.hero .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  margin-left: 25px;
+  color: var(--default-color);
+  font-weight: 600;
+}
+
+.hero .btn-watch-video i {
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+  color: var(--default-color);
+}
+
+.hero .btn-watch-video:hover i {
+  color: var(--default-color);
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero .btn-get-started,
+  .hero .btn-watch-video {
+    font-size: 13px;
+  }
+}
+/* From Uiverse.io by devkatyall */ 
+.shine {
+  font-size: 2em;
+  font-weight: 900;
+  color: rgba(10, 219, 247, 0.3);
+  background: #222222 -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1e3a8a), /* آبی تیره */
+    to(#3b82f6),   /* آبی روشن‌تر */
+    color-stop(0.5, #1e40af) /* آبی میانه */
+  ) 0 0 no-repeat;
+
+  background-image: -webkit-linear-gradient(
+    -40deg,
+    transparent 0%,
+    transparent 40%,
+    #fff 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-background-size: 50px;
+  -webkit-animation: zezzz;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes zezzz {
+  0%,
+  10% {
+    background-position: -200px;
+  }
+  20% {
+    background-position: top left;
+  }
+  100% {
+    background-position: 300px;
+  }
+}
