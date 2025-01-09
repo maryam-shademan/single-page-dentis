@@ -1,17 +1,57 @@
 function about() {
   return (
     <div>
-      <section className="flex mx-5 mt-5">
-        <div className="w-1/2">
-          <img
-            src="/img/پزشک3.jpg"
-            alt="Description"
-            className="w-full h-full object-cover rounded-lg shadow-lg"
-          />
-        </div>
-        <div className="w-1/12 p-4 text-black">
-          <p>اینجا محتوای شما قرار می‌گیرد. می‌توانید هر متنی که می‌خواهید اینجا بنویسید.</p>
-        </div>
+      <section className="items-center flex justify-center mt-5">
+
+        <>
+
+          <>
+
+          <div className="lg:w-1/2 sm:w-full h-full mx-5 flex flex-col justify-center gap-4 bg-blue-300 rounded-lg shadow p-4">
+  <div className="flex flex-col lg:flex-row gap-4">
+    <img
+      className="w-full lg:w-1/2 h-auto lg:h-full object-cover rounded-lg"
+      src="/img/پزشک2.jpg"
+      alt="Description"
+    />
+    <div className="flex flex-col justify-center">
+      <h2 className="font-bold text-black italic text-lg mb-2">
+        به کلینیک دندانپزشکی دکتر امین گلشاه خوش آمدید
+      </h2>
+      <p className="text-black leading-relaxed">
+        کلینیک دندانپزشکی دکتر گلشاه یکی از مجهزترین کلینیک های دندانپزشکی است که کلیه خدمات عمومی و تخصصی دندانپزشکی را با بهره‌گیری از پیشرفته‌ترین تجهیزات و بالاترین استانداردهای روز دنیا در اختیار مراجعین قرار می‌دهد.
+        <br />
+        کلینیک دندانپزشکی دکتر گلشاه ارائه کننده کلیه خدمات عمومی و تخصصی دندانپزشکی شامل: ترمیمی و زیبایی، درمان ریشه، جراحی لثه، پروتز، ایمپلنت و ارتودنسی با جدیدترین تکنولوژی و متد روز دنیا می‌باشد.
+        <br />
+        همچنین در این مرکز تمامی اقدامات بهداشتی طبق استانداردهای بین‌المللی با بهترین دستگاه‌های استریلیزاسیون و مواد ضدعفونی انجام می‌گیرد. هدف ما ایجاد لبخندی زیبا و جاودانه برای شما در محیطی دوستانه و گرم می‌باشد.
+        <br /><br />
+
+      </p>
+      <div className="items-center ">
+      <p>
+      <strong>:ساعات کاری کلینیک</strong>
+        <br />
+        <strong>ساعت کاری بخش ارتودنسی:</strong>
+        <br />
+        شنبه تا چهارشنبه: 15-20
+        <br />
+        پنج‌شنبه: 10-12
+        <br />
+        <strong>ساعت کاری بخش دندانپزشکی:</strong>
+        <br />
+        شنبه تا چهارشنبه: 10-13 و 15-20
+        <br />
+        پنج‌شنبه: 10-12
+      </p>
+     </div>
+    </div>
+  </div>
+</div>
+
+          </>
+
+        </>
+
       </section>
       <section className="items-center flex justify-center mt-5">
         <div className="container mx-auto px-4 py-8 bg-white">
