@@ -8,25 +8,26 @@ function contact() {
             <svg width={16} height={96} xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M 8 0 
-           Q 4 4.8, 8 9.6 
-           T 8 19.2 
-           Q 4 24, 8 28.8 
-           T 8 38.4 
-           Q 4 43.2, 8 48 
-           T 8 57.6 
-           Q 4 62.4, 8 67.2 
-           T 8 76.8 
-           Q 4 81.6, 8 86.4 
-           T 8 96 
-           L 0 96 
-           L 0 0 
-           Z"
+       Q 4 4.8, 8 9.6 
+       T 8 19.2 
+       Q 4 24, 8 28.8 
+       T 8 38.4 
+       Q 4 43.2, 8 48 
+       T 8 57.6 
+       Q 4 62.4, 8 67.2 
+       T 8 76.8 
+       Q 4 81.6, 8 86.4 
+       T 8 96 
+       L 0 96 
+       L 0 0 
+       Z"
                 fill="#007bff"
                 stroke="#007bff"
                 strokeWidth={2}
                 strokeLinecap="round"
               />
             </svg>
+
             <div className="mx-2.5 overflow-hidden w-full">
               <p className="mt-1.5 text-xl font-bold text-[#007bff] leading-8 mr-3 overflow-hidden text-ellipsis whitespace-nowrap">
                 آدرس ما
@@ -47,25 +48,26 @@ function contact() {
             <svg width={16} height={96} xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M 8 0 
-           Q 4 4.8, 8 9.6 
-           T 8 19.2 
-           Q 4 24, 8 28.8 
-           T 8 38.4 
-           Q 4 43.2, 8 48 
-           T 8 57.6 
-           Q 4 62.4, 8 67.2 
-           T 8 76.8 
-           Q 4 81.6, 8 86.4 
-           T 8 96 
-           L 0 96 
-           L 0 0 
-           Z"
+       Q 4 4.8, 8 9.6 
+       T 8 19.2 
+       Q 4 24, 8 28.8 
+       T 8 38.4 
+       Q 4 43.2, 8 48 
+       T 8 57.6 
+       Q 4 62.4, 8 67.2 
+       T 8 76.8 
+       Q 4 81.6, 8 86.4 
+       T 8 96 
+       L 0 96 
+       L 0 0 
+       Z"
                 fill="#007bff"
                 stroke="#007bff"
                 strokeWidth={2}
                 strokeLinecap="round"
               />
             </svg>
+
             <div className="mx-2.5 overflow-hidden w-full">
               <p className="mt-1.5 text-xl font-bold text-[#007bff] leading-8 mr-3 overflow-hidden text-ellipsis whitespace-nowrap">
                 شماره ما
@@ -73,7 +75,7 @@ function contact() {
               <p className="overflow-hidden leading-5 break-all text-zinc-400 max-h-10">
                 +98967676576
                 <br />
-                
+
                 0715676645
               </p>
             </div>
@@ -87,32 +89,33 @@ function contact() {
             <svg width={16} height={96} xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M 8 0 
-           Q 4 4.8, 8 9.6 
-           T 8 19.2 
-           Q 4 24, 8 28.8 
-           T 8 38.4 
-           Q 4 43.2, 8 48 
-           T 8 57.6 
-           Q 4 62.4, 8 67.2 
-           T 8 76.8 
-           Q 4 81.6, 8 86.4 
-           T 8 96 
-           L 0 96 
-           L 0 0 
-           Z"
+       Q 4 4.8, 8 9.6 
+       T 8 19.2 
+       Q 4 24, 8 28.8 
+       T 8 38.4 
+       Q 4 43.2, 8 48 
+       T 8 57.6 
+       Q 4 62.4, 8 67.2 
+       T 8 76.8 
+       Q 4 81.6, 8 86.4 
+       T 8 96 
+       L 0 96 
+       L 0 0 
+       Z"
                 fill="#007bff"
                 stroke="#007bff"
                 strokeWidth={2}
                 strokeLinecap="round"
               />
             </svg>
+
             <div className="mx-2.5 overflow-hidden w-full">
               <p className="mt-1.5 text-xl font-bold text-[#007bff] leading-8 mr-3 overflow-hidden text-ellipsis whitespace-nowrap">
                 ایمیل ما
               </p>
               <p className="overflow-hidden leading-5 break-all text-zinc-400 max-h-10">
-              kjhfkjhdsk@gmail.com
-               
+                kjhfkjhdsk@gmail.com
+
               </p>
             </div>
             <button className="w-16 cursor-pointer focus:outline-none">
@@ -134,18 +137,30 @@ function contact() {
                   <input
                     type="text"
                     placeholder="شماره تماس"
-                    className="input bg-slate-200 input-bordered input-info w-full max-w-lg"
+                    className="input bg-slate-200 text-slate-950 input-bordered input-info w-full max-w-lg"
                   />
                   <input
                     type="text"
                     placeholder="ایمیل"
-                    className="input bg-slate-200 input-bordered input-info w-full max-w-lg"
+                    className="input bg-slate-200 text-slate-950 input-bordered input-info w-full max-w-lg"
                   />
                   <input
                     type="text"
                     placeholder="متن موردنظر"
-                    className="input bg-slate-200 input-bordered input-info w-full max-w-lg"
+                    className="input bg-slate-200 text-slate-950 input-bordered input-info w-full max-w-lg"
                   />
+                  <button className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-blue-800 rounded-md group">
+                    <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-blue-700 rounded group-hover:-mr-4 group-hover:-mt-4">
+                      <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-blue-600" />
+                    </span>
+                    <span className="absolute bottom-0 rotate-180 left-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-blue-700  rounded group-hover:-ml-4 group-hover:-mb-4">
+                      <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-blue-600" />
+                    </span>
+                    <span className="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full bg-blue-700 rounded-md group-hover:translate-x-0" />
+                    <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
+                      مطالعه بیشتر
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>

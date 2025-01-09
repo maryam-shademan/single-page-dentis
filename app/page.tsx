@@ -52,7 +52,7 @@ export default function Home() {
       </section>
       <section className="mt-8 items-center justify-center flex">
         <div className="relative shine text-4xl font-bold text-transparent bg-clip-text borer-gradient-to-r from-blue-500 to-purple-600 animate-shine">
-        لبخندی زیبا،هدیه‌ای برای زندگی
+          لبخندی زیبا،هدیه‌ای برای زندگی
 
 
         </div>
@@ -152,14 +152,42 @@ export default function Home() {
       </section >
 
 
-      {/*راه های ارتباطی*/}
+      {/*  خدمات*/}
 
       <div className="container mx-auto text-center mt-8 mb-14" data-aos="fade-up">
         <h2 className="text-4xl font-bold text-gray-800">خدمات ما</h2>
+        <a
+          href="/servic"
+          className="bg-white mt-2 text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group"
+        >
+          <button
+            className="bg-white mt-2 text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group"
+            type="button"
+          >
+            <div className="bg-blue-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1024 1024"
+                height="25px"
+                width="25px"
+              >
+                <path
+                  d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
+                  fill="#000000"
+                />
+                <path
+                  d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+                  fill="#000000"
+                />
+              </svg>
+            </div>
+            <p className="translate-x-2 mt-4">مشاهده کل خدمات ما</p>
+          </button>
+        </a>
         <></>
       </div>
       <div className="flex flex-col md:flex-row gap-8 justify-center items-center bg-white ">
-        {/* کارت تماس با من */}
+        {/* کارت خدمات  با  */}
         <div className="relative group overflow-hidden rounded-2xl bg-white shadow-lg bg-gradient-to-br from-light-blue-500 to-deep-blue-600 h-56 w-80 flex justify-center items-center">
           <>
             <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-blue-400 -outline-offset-8">
@@ -177,11 +205,28 @@ export default function Home() {
         {/* کارت آدرس */}
         <div className="relative group overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-light-blue-500 to-deep-blue-600 h-56 w-80 flex justify-center items-center">
           <>
+            <div className="relative group overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-light-blue-500 to-deep-blue-600 h-56 w-80 flex justify-center items-center">
+              <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-blue-400 -outline-offset-8">
+                <div className="group overflow-hidden relative after:duration-500 before:duration-500 duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12 before:absolute before:w-20 before:h-20 before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12 hover:rotate-12 flex justify-center items-center h-56 w-80 bg-blue-600 rounded-2xl outline outline-cyan-400 -outline-offset-8">
+                  <div className="z-10 flex flex-col items-center gap-2">
+                    <span className="outline-blue-400 text-6xl font-bold">ایمپلنت
+                    </span>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+
+        </div>
+        <div className="relative group overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-light-blue-500 to-deep-blue-600 h-56 w-80 flex justify-center items-center">
+          <>
             <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-blue-400 -outline-offset-8">
               <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20 before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-blue-600 rounded-2xl outline outline-cyan-400 -outline-offset-8">
                 <div className="z-10 flex flex-col items-center gap-2">
-                  <span className="outline-blue-400  text-6xl font-bold"> عصب کشی</span>
-                  <p className="text-gray-200 text-sm">با روش ها نویین وخاص مخصوص کلینیک ما</p>
+                  <span className="outline-blue-400  text-6xl font-bold">درمان ریشه
+                  </span>
+
 
                 </div>
               </div>
@@ -194,23 +239,7 @@ export default function Home() {
             <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-blue-400 -outline-offset-8">
               <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20 before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-blue-600 rounded-2xl outline outline-cyan-400 -outline-offset-8">
                 <div className="z-10 flex flex-col items-center gap-2">
-                  <span className="outline-blue-400  text-6xl font-bold">پرکردن دندان </span>
-                  <p className="text-gray-200 text-sm">با روش ها نویین وخاص مخصوص کلینیک ما</p>
-
-                </div>
-              </div>
-            </div>
-          </>
-
-        </div>
-        <div className="relative group overflow-hidden rounded-2xl shadow-lg bg-gradient-to-br from-light-blue-500 to-deep-blue-600 h-56 w-80 flex justify-center items-center">
-          <>
-            <div className="bg-sky-700 rounded-2xl shadow-sm shadow-sky-500 outline outline-blue-400 -outline-offset-8">
-              <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20 before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-blue-600 rounded-2xl outline outline-cyan-400 -outline-offset-8">
-                <div className="z-10 flex flex-col items-center gap-2">
-                  <span className="outline-blue-400  text-6xl font-bold">لمینت وپروتز</span>
-                  <p className="text-gray-200 text-sm">با روش ها نویین وخاص مخصوص کلینیک ما</p>
-
+                  <span className="outline-blue-400   text-4xl font-bold">دندانپزشکی کودکان</span>
                 </div>
               </div>
             </div>
